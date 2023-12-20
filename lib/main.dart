@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'BDK-FLUTTER TUTORIAL',
+      debugShowCheckedModeBanner: true,
+      title: 'BDK-FLUTTER',
       theme: theme(),
       home: const Home(),
     );

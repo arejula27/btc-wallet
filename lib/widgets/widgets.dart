@@ -132,7 +132,7 @@ AppBar buildAppBar(BuildContext context) {
       color: Theme.of(context).secondaryHeaderColor,
       size: 40,
     ),
-    title: Text("Bdk-Flutter Tutorial",
-        style: Theme.of(context).textTheme.displayLarge),
+    title:
+        Text("Bdk-Flutter ", style: Theme.of(context).textTheme.displayLarge),
   );
 }
